@@ -34,12 +34,12 @@ We empower engineering leaders and FinOps teams to continuously eliminate cloud 
 ## High-Level Architecture
 
 ```
-┌─────────────────────┐       ┌─────────────────────┐       ┌─────────────────────┐
-│  Cloud Federation   │       │   ArthaOps Engine   │       │ Operational Impact  │
-│  • Read-Only IAM    │ ────> │  • Waste Discovery  │ ────> │  • Verified Savings │
-│  • Agentless Setup  │       │  • Risk Governance  │       │  • Executive Digest │
-│  • Zero Data Access │       │  • Anomaly Alerts   │       │  • Audit Reports    │
-└─────────────────────┘       └─────────────────────┘       └─────────────────────┘
+┌─────────────────────┐       ┌───────────────────────┐       ┌─────────────────────┐
+│  Cloud Federation   │       │  ArthaOps X-Engine™   │       │ Operational Impact  │
+│  • Read-Only IAM    │ ────> │  • Waste Discovery    │ ────> │  • Verified Savings │
+│  • Agentless Setup  │       │  • Risk Governance    │       │  • Executive Digest │
+│  • Zero Data Access │       │  • Anomaly Alerts     │       │  • Audit Reports    │
+└─────────────────────┘       └───────────────────────┘       └─────────────────────┘
 ```
 
 ---
