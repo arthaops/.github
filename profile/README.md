@@ -31,6 +31,19 @@ We empower engineering leaders and FinOps teams to continuously eliminate cloud 
 
 ---
 
+## High-Level Architecture
+
+```
+┌─────────────────────┐       ┌─────────────────────┐       ┌─────────────────────┐
+│  Cloud Federation   │       │   ArthaOps Engine   │       │ Operational Impact  │
+│  • Read-Only IAM    │ ────> │  • Waste Discovery  │ ────> │  • Verified Savings │
+│  • Agentless Setup  │       │  • Risk Governance  │       │  • Executive Digest │
+│  • Zero Data Access │       │  • Anomaly Alerts   │       │  • Audit Reports    │
+└─────────────────────┘       └─────────────────────┘       └─────────────────────┘
+```
+
+---
+
 ## Security & Trust
 
 - **Zero Data Ingestion**: We analyze cloud metadata and telemetry only — never production application data, database records, or customer PII.
