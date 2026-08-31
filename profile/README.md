@@ -9,158 +9,42 @@
  ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚══════╝
 ```
 
-### **Autonomous Cloud Infrastructure Intelligence & Controlled Autonomy Engine**
+### **Autonomous Cloud Infrastructure Intelligence & Cost Optimization**
 
-[![Security: Zero-Trust](https://img.shields.io/badge/SECURITY-ZERO--TRUST%20RLS-078d60?style=for-the-badge&logo=shield&logoColor=white&labelColor=0d1117)](https://arthaops.com/security)
-[![Autonomy: Controlled](https://img.shields.io/badge/AUTONOMY-8%20INVARIANT%20LAWS-5e6ad2?style=for-the-badge&labelColor=0d1117)](https://arthaops.com/compliance)
-[![Test Fortress](https://img.shields.io/badge/TESTS-8%2C942%20PASS%20(100%25)-0451c7?style=for-the-badge&logo=pytest&logoColor=white&labelColor=0d1117)](https://status.arthaops.com)
-[![Compliance: SOC 2](https://img.shields.io/badge/COMPLIANCE-SOC%202%20TYPE%20II%20READY-eab308?style=for-the-badge&labelColor=0d1117)](https://arthaops.com/security)
-[![Architecture: Sub--Millisecond](https://img.shields.io/badge/CORE-SIMD%20%2F%20COLUMNAR%20OLAP-22c4ff?style=for-the-badge&labelColor=0d1117)](https://docs.arthaops.com)
+[![Security: Zero-Trust](https://img.shields.io/badge/Security-Zero--Trust-078d60?style=for-the-badge&logo=shield&logoColor=white&labelColor=0d1117)](https://arthaops.com)
+[![Compliance: SOC 2](https://img.shields.io/badge/Compliance-SOC%202%20Type%20II%20Ready-5e6ad2?style=for-the-badge&labelColor=0d1117)](https://arthaops.com)
+[![Deployment: Enterprise](https://img.shields.io/badge/Deployment-SaaS%20%2F%20Single--Tenant-0451c7?style=for-the-badge&labelColor=0d1117)](https://arthaops.com)
 
 <br/>
 
-[**Platform Overview**](https://arthaops.com) &nbsp;•&nbsp; [**Documentation**](https://docs.arthaops.com) &nbsp;•&nbsp; [**Live Status**](https://status.arthaops.com) &nbsp;•&nbsp; [**Security Whitepaper**](https://arthaops.com/security) &nbsp;•&nbsp; [**Contact Enterprise**](mailto:enterprise@arthaops.com)
+[**Website**](https://arthaops.com) &nbsp;•&nbsp; [**Documentation**](https://docs.arthaops.com) &nbsp;•&nbsp; [**Status**](https://status.arthaops.com) &nbsp;•&nbsp; [**Security Policy**](SECURITY.md) &nbsp;•&nbsp; [**Contact**](mailto:contact@arthaops.com)
 
 ---
 
 </div>
 
-## ⚡ Executive Summary
+## Overview
 
-**ArthaOps** is the enterprise-grade **Controlled Cloud Infrastructure Autonomy & Cost Optimization Platform**. 
+**ArthaOps** is the enterprise platform for autonomous cloud infrastructure intelligence and cost optimization.
 
-Operating via an agentless, read-only AWS IAM federation, ArthaOps continuously models multi-account cloud environments, discovers cloud waste across **219 production detectors**, and orchestrates safe, stateful remediation under an immutable **8-Law Sovereign Safety Kernel™** with automated fail-closed rollbacks.
-
-```
-┌──────────────────────────────────────────────────────────────────────────────────────────┐
-│                                ARTHAOPS AUTONOMOUS TOPOLOGY                              │
-└────────────────────────────────────────────┬─────────────────────────────────────────────┘
-                                             │
-      ┌──────────────────────────────────────┼──────────────────────────────────────┐
-      ▼                                      ▼                                      ▼
-┌───────────────┐                    ┌───────────────┐                    ┌─────────────────┐
-│ AWS STS / IAM │                    │ FOCUS 1.2/CUR │                    │ K8s & INFRA AST │
-│  (Read-Only)  │                    │  (Ingestion)  │                    │ (IaC Telemetry) │
-└───────┬───────┘                    └───────┬───────┘                    └────────┬────────┘
-        │                                    │                                     │
-        └────────────────────────────────────┼─────────────────────────────────────┘
-                                             ▼
-                     ┌───────────────────────────────────────────────┐
-                     │     219 AUTONOMOUS WASTE & LEAK DETECTORS     │
-                     │  • EC2 / EKS / Graviton  • RDS / OpenSearch   │
-                     │  • S3 / EBS Compaction   • AI / GPU / LLMs    │
-                     │  • NAT / Cross-AZ Mesh   • CloudWatch / Logs  │
-                     └───────────────────────┬───────────────────────┘
-                                             ▼
-                     ┌───────────────────────────────────────────────┐
-                     │          SOVEREIGN SAFETY KERNEL™             │
-                     │       8 Machine-Enforced Invariant Laws       │
-                     │   Zero-Disruption State Transition Bounds     │
-                     └───────────────────────┬───────────────────────┘
-                                             ▼
-        ┌────────────────────────────────────┼─────────────────────────────────────┐
-        ▼                                    ▼                                     ▼
-┌───────────────┐                    ┌───────────────┐                    ┌─────────────────┐
-│  PR DIFF BOT  │                    │ 1-CLICK TF/CF │                    │ PROVABLE MERKLE │
-│ (CI Sentinel) │                    │  (Terraform)  │                    │  (Audit Ledger) │
-└───────────────┘                    └───────────────┘                    └─────────────────┘
-```
+We empower engineering leaders and FinOps teams to continuously eliminate cloud waste with provable safety, zero service disruption, and complete data sovereignty.
 
 ---
 
-## 🏛️ The 8 Domains of Cloud Waste Optimization
+## Security & Trust
 
-ArthaOps scans, scores, and reconciles infrastructure waste across 8 specialized domain families:
-
-| Domain | Core Heuristics & Detectors | Realized Waste Elimination |
-|---|---|:---:|
-| **🖥️ Compute & Orchestration** | Idle EC2, Pod overprovisioning, Graviton3/4 arbitrage, Lambda cold execution overhead | **15% – 35%** |
-| **🗄️ Database & Storage** | Unattached EBS gp2$\rightarrow$gp3 conversions, RDS rightsizing, DynamoDB on-demand traps | **20% – 40%** |
-| **🤖 AI & GPU FinOps** | Unallocated GPU VRAM, uncompressed KV-caches, runaway LLM inference token pipelines | **30% – 60%** |
-| **🌐 Network & Data Egress** | Idle NAT Gateways, cross-AZ traffic thrashing, orphaned Elastic IPs, CloudFront cache drift | **15% – 30%** |
-| **📦 Object Storage** | S3 Intelligent-Tiering transitions, incomplete multipart uploads, stale lifecycle policies | **25% – 50%** |
-| **📊 Observability & Logs** | High-cardinality CloudWatch metric ingestion, uncompressed log retention groups | **20% – 45%** |
-| **⚖️ Multi-Cloud & Arbitrage** | Cross-cloud regional migration arbitrage, spot cluster resilience, reserved instance coverage | **10% – 25%** |
-| **🛡️ Sovereign Financial Truth** | Double-entry ledger balance sheets, GST/ITC tax reconciliation, USD/INR FX forward hedging | **Exact (0.00 Drift)** |
+- **Zero Data Ingestion**: We analyze cloud metadata and telemetry only — never production application data, database records, or customer PII.
+- **Non-Invasive Architecture**: Read-only cross-account IAM integration with cryptographic verification and least-privilege scoping.
+- **Enterprise Sovereignty**: Designed for high-assurance fintech, enterprise, and regulated environments with SaaS and single-tenant VPC options.
 
 ---
 
-## 🔒 Enterprise Zero-Trust Security Architecture
+## Resources & Inquiries
 
-ArthaOps is architected from the ground up for high-assurance enterprise, fintech, and banking environments:
-
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│ 1. ZERO DATA INGESTION       │ Analyzes metadata & billing exports only. ZERO payload access.
-├──────────────────────────────┼──────────────────────────────────────────────────────────┤
-│ 2. NON-INVASIVE IAM ROLE     │ Read-only STS AssumeRole with cryptographic External ID.
-├──────────────────────────────┼──────────────────────────────────────────────────────────┤
-│ 3. ROW-LEVEL SECURITY (RLS)  │ 100% tenant-scoped database queries with boot-time schema checks.
-├──────────────────────────────┼──────────────────────────────────────────────────────────┤
-│ 4. IMMUTABLE MERKLE AUDIT    │ RFC-8785 canonical JSON 7-tuple SHA-256 Merkle provenance chains.
-├──────────────────────────────┼──────────────────────────────────────────────────────────┤
-│ 5. AIR-GAPPED DEPLOYMENT     │ Available as SaaS or Single-Tenant VPC / On-Premise container binaries.
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🚀 Customer & CI/CD Integrations (Thin-Client Architecture)
-
-### 1. Terraform Pre-Apply Cost Sentinel (GitHub Action)
-Integrate cost governance directly into pull requests without leaking internal infrastructure formulas:
-
-```yaml
-name: "ArthaOps Cost Sentinel"
-on: [pull_request]
-
-jobs:
-  cost-audit:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Terraform Plan
-        run: terraform plan -json > tfplan.json
-
-      - name: ArthaOps Cost Regression Diff
-        uses: arthaops/cost-sentinel-action@v1
-        with:
-          api-key: ${{ secrets.ARTHAOPS_API_KEY }}
-          plan-path: tfplan.json
-```
-
-### 2. 1-Click AWS IAM Onboarding (Terraform)
-Provision the read-only audit federation role in seconds:
-
-```hcl
-module "arthaops_integration" {
-  source       = "arthaops/aws-role/terraform"
-  version      = "1.0.0"
-  workspace_id = "ws_live_YOUR_WORKSPACE_ID"
-  external_id  = "ext_proof_YOUR_EXTERNAL_ID"
-}
-```
-
----
-
-## 📊 Proof of Engineering & Quality Metrics
-
-```
-Deterministic Test Fortress:   8,942 / 8,942 PASS (100% Green)
-Automated CI Quality Gates:    24 / 24 PASSED (100% Verified)
-Known Vulnerabilities (CVE):   0 (Zero Open CVEs)
-Type Soundness:                100% Strict (Mypy Strict + TypeScript Strict)
-Design System Health:          140 / 140 Modules Verified (100% Token Compliant)
-```
-
----
-
-## 📬 Institutional Relations & Support
-
+- **Official Website**: [arthaops.com](https://arthaops.com)
+- **Documentation**: [docs.arthaops.com](https://docs.arthaops.com)
+- **Security & Responsible Disclosure**: [SECURITY.md](SECURITY.md) or [`security@arthaops.com`](mailto:security@arthaops.com)
 - **Enterprise Inquiries**: [`enterprise@arthaops.com`](mailto:enterprise@arthaops.com)
-- **Security & Responsible Disclosure**: [`security@arthaops.com`](mailto:security@arthaops.com)
-- **Technical Documentation**: [docs.arthaops.com](https://docs.arthaops.com)
-- **Operational Status**: [status.arthaops.com](https://status.arthaops.com)
 
 <div align="center">
 
