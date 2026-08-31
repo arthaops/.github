@@ -136,8 +136,8 @@ Provision the read-only audit federation role in seconds:
 module "arthaops_integration" {
   source       = "arthaops/aws-role/terraform"
   version      = "1.0.0"
-  workspace_id = "ws_live_01j7..."
-  external_id  = "ext_proof_8a4e693e..."
+  workspace_id = "ws_live_YOUR_WORKSPACE_ID"
+  external_id  = "ext_proof_YOUR_EXTERNAL_ID"
 }
 ```
 
