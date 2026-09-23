@@ -61,9 +61,11 @@ We empower engineering leaders, platform SREs, and FinOps teams to continuously 
 
 | Repository | Status | Purpose |
 | :--- | :---: | :--- |
+| [**`cost-sentinel-action`**](https://github.com/arthaops/cost-sentinel-action) | [![CI](https://github.com/arthaops/cost-sentinel-action/actions/workflows/ci.yml/badge.svg)](https://github.com/arthaops/cost-sentinel-action/actions) | GitHub Action for PR-level cloud infrastructure cost diffs and policy gating. |
+| [**`terraform-aws-arthaops-role`**](https://github.com/arthaops/terraform-aws-arthaops-role) | [![CI](https://github.com/arthaops/terraform-aws-arthaops-role/actions/workflows/ci.yml/badge.svg)](https://github.com/arthaops/terraform-aws-arthaops-role/actions) | 1-Click Terraform/OpenTofu module for 100% read-only cross-account AWS IAM federation. |
+| [**`terraform-azure-arthaops-role`**](https://github.com/arthaops/terraform-azure-arthaops-role) | [![CI](https://github.com/arthaops/terraform-azure-arthaops-role/actions/workflows/ci.yml/badge.svg)](https://github.com/arthaops/terraform-azure-arthaops-role/actions) | 1-Click Terraform/OpenTofu module for read-only Azure RBAC least-privilege onboarding. |
+| [**`terraform-google-arthaops-role`**](https://github.com/arthaops/terraform-google-arthaops-role) | [![CI](https://github.com/arthaops/terraform-google-arthaops-role/actions/workflows/ci.yml/badge.svg)](https://github.com/arthaops/terraform-google-arthaops-role/actions) | 1-Click Terraform/OpenTofu module for read-only GCP Workload Identity Federation. |
 | [**`.github`**](https://github.com/arthaops/.github) | Active | Organization profile, brand guidelines, and vulnerability disclosure policy. |
-| [**`terraform-aws-arthaops-role`**](https://github.com/arthaops/terraform-aws-arthaops-role) | Active | 1-Click open-source Terraform/OpenTofu module for read-only cross-account IAM federation. |
-| [**`cost-sentinel-action`**](https://github.com/arthaops/cost-sentinel-action) | Coming Soon | GitHub Action for PR-level infrastructure cost diffs and policy gating. |
 
 ---
 
