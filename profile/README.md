@@ -62,7 +62,7 @@ We empower engineering leaders, platform SREs, and FinOps teams to continuously 
 | Repository | Status | Purpose |
 | :--- | :---: | :--- |
 | [**`.github`**](https://github.com/arthaops/.github) | Active | Organization profile, brand guidelines, and vulnerability disclosure policy. |
-| [**`terraform-aws-arthaops-role`**](https://github.com/arthaops/terraform-aws-arthaops-role) | Coming Soon | 1-Click open-source Terraform module for read-only cross-account IAM federation. |
+| [**`terraform-aws-arthaops-role`**](https://github.com/arthaops/terraform-aws-arthaops-role) | Active | 1-Click open-source Terraform/OpenTofu module for read-only cross-account IAM federation. |
 | [**`cost-sentinel-action`**](https://github.com/arthaops/cost-sentinel-action) | Coming Soon | GitHub Action for PR-level infrastructure cost diffs and policy gating. |
 
 ---
