@@ -1,0 +1,37 @@
+name: 🐛 Bug Report
+description: Report a defect or unexpected behavior in an ArthaOps open-source module
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! If this report involves a security vulnerability, please review [SECURITY.md](https://github.com/arthaops/.github/blob/main/SECURITY.md) and report via `security@arthaops.com`.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment & Versions
+      description: What versions of Terraform/OpenTofu and cloud providers are you using?
+      placeholder: "e.g. OpenTofu v1.8.2, AWS Provider v5.50.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Steps or minimal HCL reproduction code.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
