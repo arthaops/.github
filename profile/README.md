@@ -3,7 +3,8 @@
 <br/>
 
 <a href="https://arthaops.com">
-  <img src="arthaops-brand.svg" alt="ArthaOps Logo" width="400" />
+  <img src="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-dark.svg#gh-dark-mode-only" alt="ArthaOps Logo" width="420" />
+  <img src="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-light.svg#gh-light-mode-only" alt="ArthaOps Logo" width="420" />
 </a>
 
 <br/>
