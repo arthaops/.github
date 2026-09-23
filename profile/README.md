@@ -3,8 +3,11 @@
 <br/>
 
 <a href="https://arthaops.com">
-  <img src="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-dark.svg#gh-dark-mode-only" alt="ArthaOps Logo" width="420" />
-  <img src="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-light.svg#gh-light-mode-only" alt="ArthaOps Logo" width="420" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-light.svg">
+    <img alt="ArthaOps Logo" src="https://raw.githubusercontent.com/arthaops/.github/main/profile/arthaops-brand-light.svg" width="420" />
+  </picture>
 </a>
 
 <br/>
