@@ -35,7 +35,7 @@ If you discover a security vulnerability in ArthaOps or any associated repositor
 
 1. **Zero Data Ingestion**: ArthaOps analyzes cloud metadata and billing exports only. We never access, copy, or persist production databases, application payloads, or customer PII.
 2. **Read-Only Least Privilege**: Our AWS integrations operate strictly via scoped AWS STS AssumeRole with external IDs.
-3. **Provably-Constrained Safety**: All autonomous actions are validated against an 8-law mathematical Safety Kernel with automatic fail-closed rollback mechanisms.
+3. **Provably-Constrained Safety**: All autonomous actions are validated against an 8-law Formal Safety Engine with automatic fail-closed rollback mechanisms.
 4. **End-to-End Encryption**: All customer credentials and external IDs are encrypted at rest using AWS KMS and Fernet symmetric ciphers.
 
 ---
