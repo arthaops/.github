@@ -1,0 +1,27 @@
+name: ✨ Feature Request
+description: Suggest an enhancement or new cloud provider integration for ArthaOps
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the ArthaOps developer ecosystem!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: Is your feature request related to a problem or limitation? Please describe.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: A clear description of what you want to happen and how it adheres to 100% read-only least-privilege security.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any cloud architecture diagrams, Terraform snippets, or provider documentation references.
